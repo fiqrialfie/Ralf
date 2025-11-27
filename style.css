@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color:white;
+  
+}
+
+h2 {
+    display:flex;
+    flex-wrap:wrap;
+    color:white;
+
+}
+
+ul {
+    text-decoration:none;
+    list-style: none;
+    text-align:center;
+    align-items: center;
+    font-size:25px;
+    color:white;
+    display: flex;
+    justify-content: right ;
+    padding-right:  40px;
+    gap:30px;
+ 
+}
+
+a {
+    justify-content: center;
+    color:white;
+    text-decoration: none;
+}
+header {
+    text-align:center;
+    background-color: rgb(0, 0, 0);
+    opacity:60%;
+    padding:20px;
+
+}

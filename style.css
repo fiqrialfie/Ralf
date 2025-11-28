@@ -26,6 +26,8 @@ header {
     width:100%;
     padding:20px 40px;
     box-sizing:border-box;
+    transition: transform 0.3s ease-in-out; 
+    z-index: 1000;
 
 }
 
@@ -41,6 +43,10 @@ header {
     object-fit:contain;
 
 }
+
+.nav-hidden {
+    transform: translateY(-100%);
+}
  ul {
     text-decoration:none;
     list-style: none;   
@@ -52,12 +58,12 @@ header {
 }
 
 .nav-text-1 {
-    margin-left: 40px;
+    margin-left: 350px;
     margin-right:0px;
 }
  
 .nav-text-2 {
-    margin-right:40px;
+    margin-right:350px;
     margin-left:0px;
 }
 

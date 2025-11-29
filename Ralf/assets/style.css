@@ -1,20 +1,22 @@
 body {
-    background-color: rgb(255, 255, 255);
     display:flex;
     flex-direction:column;
     min-height:100vh;
     margin:0;  
     overflow-x: hidden;
 }
+
 h1 {
     text-align:center;
     color:white;
 }
+
 h2 {
     display:flex;
     flex-wrap:wrap;
     color:white;
 }
+
 header {
     background-color: rgba(0, 0, 0, 0.3);
     position:fixed;
@@ -24,6 +26,7 @@ header {
     transition: transform 0.3s ease-in-out; 
     z-index: 1000;
 }
+
 .navbar {
     display:flex;
     justify-content: space-between;
@@ -31,6 +34,7 @@ header {
     width:100%;
     
 }
+
 .nav-logo {
     width: 70px;
     position:absolute;
@@ -41,9 +45,11 @@ header {
    transform: translateX(-50%);
 
 }
+
 .nav-hidden {
     transform: translateY(-100%);
 }
+
  ul {
     text-decoration:none;
     list-style: none;   
@@ -53,6 +59,7 @@ header {
     gap:40px;
  
 }
+
 .nav-text-left, 
 .nav-text-right {
     display:flex;
@@ -64,14 +71,17 @@ header {
    
     margin-right:auto;
 }
+
 .nav-text-right {
    
     margin-left:auto;
 }
+
 a {
     color:white;
     text-decoration: none;
 }
+
 .main-content-1 {
     position: relative;
     width: 100vw;
@@ -80,8 +90,11 @@ a {
     margin-top:40px;
     z-index:100;
     border-bottom: 10px solid rgb(155, 155, 155);
+    border-top:10px solid  rgb(155, 155, 155);
+    margin-top:1000px;
     
 }
+
 .main-img-1 {
     width: 100%;
     max-width:2000px;
@@ -89,6 +102,7 @@ a {
     max-height:auto;
     object-fit: cover;  
     z-index:1;
+    background-color: rgb(202, 202, 202) ;
  
 }
 .main-text-1 {
@@ -125,19 +139,28 @@ a {
 
 .t1 {
     color:rgb(255, 0, 0) !important;
+}
+.main-text-2 {
+    z-index: 2;
+    font-size:100px;
+    background-color: black;
+    
 
 }
+
 .main-content-3 {
     position: relative;
     width: 100vw;
     height: 100vh;
     overflow:hidden;    
+    background-color: gray;
  }
 
 .main-img-3 {
     width: 100%;
-    height:auto   ;
-    object-fit: cover;
+    height:100%   ;
+    max-height: max-;
+    object-fit: contain;
     z-index:1;
  
 }
@@ -174,17 +197,45 @@ display:block;
     display:block;
 }
 
-.about-content {
-
-
+p {
+    font-size: 100px;
+    text-align: center;
 }
 
-.about-text {
-
-
+h3 {
+    display:block;
+    font-size:100px;
+    text-align:center;
+    padding-top:50px;
 }
 
-.about-text h1 {
+#main {
+    display:relative;
+    text-align:center;
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color: black;
+    border-top:2px solid gray;
+    top:0;
+    left:0;
+    
+}
+#main  h1 {
+    color:white;
+    font-size:30px;
+    display: block;
+ 
+}
 
+#footer {
+    display:relative;
+    padding-left:20px;
+    padding-top:20px;
+}
 
+.footer-logo {
+    position: absolute;
+    width: 76px;
+    top:0;
+    left:0;   
 }
